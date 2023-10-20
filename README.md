@@ -49,10 +49,10 @@ The models were evaluated using various metrics, including accuracy, precision, 
 ## Project Structure
 
 - `main.py`: Flask web application for making predictions.
-- `churn_prediction.ipynb`: Jupyter Notebook containing data preprocessing and model development.
+- `Customer_Churn_EDA.ipynb`: Jupyter Notebook containing data preprocessing.
+- `Churn Analysis_Model.ipynb`: Jupyter Notebook containing data preprocessing model development.
 - `model1.sav`: Saved Bagging Classifier model.
-- `templates/`: HTML templates for the web application.
-- `static/`: Static files for the web application.
+- `templates/`: HTML templates for the web application and other data files.
 
 ![Screenshot 2023-10-20 204650](https://github.com/Jainamrockk/Churn_Prediction_Project/assets/67656502/91bff769-a886-4e36-8401-16aed3a6f45f)
 
