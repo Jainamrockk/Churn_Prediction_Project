@@ -1,3 +1,4 @@
+
 # Churn_Prediction_Project
 # Customer Churn Prediction Model
 
@@ -52,6 +53,8 @@ The models were evaluated using various metrics, including accuracy, precision, 
 - `model1.sav`: Saved Bagging Classifier model.
 - `templates/`: HTML templates for the web application.
 - `static/`: Static files for the web application.
+
+![Screenshot 2023-10-20 204650](https://github.com/Jainamrockk/Churn_Prediction_Project/assets/67656502/91bff769-a886-4e36-8401-16aed3a6f45f)
 
 ## Future Enhancements
 
