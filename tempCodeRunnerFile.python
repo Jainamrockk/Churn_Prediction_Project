@@ -1,0 +1,10 @@
+import zipfile
+
+# Replace 'data.sav' with the name of your .sav file
+sav_file = 'model1.sav'
+
+# Name for the zip archive
+zip_archive = 'C:\\Users\\Jainam\\PycharmProjects\\Churn_Prediction_Project\\data.zip'
+
+with zipfile.ZipFile(zip_archive, 'w', zipfile.ZIP_DEFLATED) as zipf:
+    zipf.write(sav_file, arcname=sav_file)
