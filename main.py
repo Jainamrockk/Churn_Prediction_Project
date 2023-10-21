@@ -67,6 +67,8 @@ def predict():
     
     # Create dummy variables for categorical columns
     new_df_dummies = pd.get_dummies(df_2[['Gender', 'Location', 'tenure_group', 'age_group']])
+    df_2 = pd.concat([df_2, new_df_dummies],axis='columns')
+    df_2.drop(columns=['Gender', 'Location', 'age_group', 'tenure_group'], axis=1, inplace=True) 
     # Make predictions
     single = model.predict(new_df_dummies.tail(1))
     probablity = model.predict_proba(new_df_dummies.tail(1))[:, 1]
